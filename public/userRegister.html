@@ -1,0 +1,12 @@
+<div class="userRegister" ng-controller="userRegisterCntrl">
+<form style="text-align:center" class="row" ng-hide="x" name="myForm">
+
+	<strong><h3><p>User Registration Details</p></h3></strong><br>
+	User Name:<input type="text" ng-model="dr.userName" required>
+    Password:<input type="password" ng-model="dr.password" required>
+    Full Name:<input type="text" ng-model="dr.fullName" required>
+   
+	<button type="submit" ng-click="registration()">Register</button>
+    <a href="#userLogin"><button type="submit">Back</button></a>
+</form>
+</div>
